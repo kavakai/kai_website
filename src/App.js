@@ -1,10 +1,9 @@
 import './App.css';
 import image from "./Assets/IMG_2175.JPG"
 import { ProjectContainer } from './Components/ProjectContainer';
+import { projectData } from './ProjectData';
 
 function App() {
-
-  const projects = [{title: "Im a project"}]
 
   return (
     <div className="App">
@@ -13,8 +12,8 @@ function App() {
       <p>I am a software developer by trade and a father, partner, friend, adventurer, etc. by choice</p>
       <img src={image} />
 
-      <h2>Projects {"=>"}</h2>
-      <ProjectContainer projects={projects}/>
+      <h2>Personal Projects {"=>"}</h2>
+      <ProjectContainer projects={projectData}/>
     </div>
   );
 }
