@@ -4,4 +4,8 @@
 
 img {
   width: 33%;
+  border: solid 2px;
+  padding: 20px;
+  background-color: rgb(196, 196, 196);
+  /* border-radius: 10px; */
 }
