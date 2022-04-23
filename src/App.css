@@ -4,6 +4,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 40px;
 }
 
 .scale-in-center {
@@ -65,4 +73,12 @@
 
 .logo {
   width: 100%; 
+}
+
+.intro-paragraph {
+  text-align: justify;
+}
+
+p {
+  line-height: 1.4em;
 }
