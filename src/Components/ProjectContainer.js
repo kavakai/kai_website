@@ -1,5 +1,6 @@
 import React from "react";
 import { Project } from "./Project";
+import "./ProjectContainer.css"
 
 export const ProjectContainer = ({ projects }) => {
 
@@ -16,8 +17,8 @@ export const ProjectContainer = ({ projects }) => {
     />
   }) 
   return (
-    <div>
-      <h3>{projectCards}</h3>
-    </div>
+    <section className="proj-container">
+      {projectCards}
+    </section>
   )
 }

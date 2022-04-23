@@ -1,0 +1,7 @@
+.proj-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  border: solid 3px;
+}

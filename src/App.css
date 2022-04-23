@@ -4,9 +4,10 @@
 
 .scale-in-center {
   width: 33%;
-  border: solid 2px;
+  border: solid 5px;
+  border-radius: 8px;
   padding: 20px;
-  background-color: rgb(196, 196, 196);
+  background-color: rgb(255, 255, 255);
   /* border-radius: 10px; */
 }
 
@@ -50,4 +51,11 @@
             transform: scale(1);
     opacity: 1;
   }
+}
+
+.links {
+  display: flex;
+  margin-left: 25%;
+  width: 50%;
+  justify-content: space-around;
 }

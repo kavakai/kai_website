@@ -1,0 +1,7 @@
+.proj-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 3em;
+  width: 100vw;
+  padding: 20px;
+}
