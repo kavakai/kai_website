@@ -1,5 +1,8 @@
 import './App.css';
 import image from "./Assets/IMG_2175.JPG"
+import linkedin from "./Assets/linkedin.png"
+import github from "./Assets/github.png"
+import resume from "./Assets/cv.png"
 import { ProjectContainer } from './Components/ProjectContainer';
 import { projectData } from './ProjectData';
 
@@ -16,11 +19,15 @@ function App() {
       <h2>Personal Projects {"=>"}</h2>
       <ProjectContainer projects={projectData} />
       <div className="links">
-        <a href="https://docs.google.com/document/d/1MpBVSinj4yx3Xd174NhsHVwYGfySZrqdSeZrrPgVRrI/edit?usp=sharing">Resume</a>
-        <a href="www.linkedin.com/in/kai-kuller">
-          <img src="../Assets/linkedin.png"/>
+        <a href="https://docs.google.com/document/d/1MpBVSinj4yx3Xd174NhsHVwYGfySZrqdSeZrrPgVRrI/edit?usp=sharing">
+          <img className="logo" src={resume} />
         </a>
-        <a href="https://github.com/kavakai/">Github</a>
+        <a href="www.linkedin.com/in/kai-kuller">
+          <img className="logo" src={linkedin}/>
+        </a>
+        <a href="https://github.com/kavakai/">
+          <img className="logo" src={github} />
+        </a>
       </div>
     </div>
   );

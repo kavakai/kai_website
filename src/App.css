@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .scale-in-center {
@@ -55,7 +59,10 @@
 
 .links {
   display: flex;
-  margin-left: 25%;
-  width: 50%;
+  width: 35%;
   justify-content: space-around;
+}
+
+.logo {
+  width: 40%;
 }
