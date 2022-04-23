@@ -19,7 +19,7 @@ export const projectData = [
     image: WorthWild
   },
   {
-    title:"Kanye West Mindfulness App",
+    title:"Kanye West Mindfulness",
     info:"Getting Mindful with Kanye is a mindfulness application designed for folks who want to take contemporary approach to health and wellness. Users are equipped to navigate through the artistic layout to track their mood, journal their thoughts and feelings and see their progress on a personal dashboard. It is an accessible React application that utilizes Context API to transfer data between components, has an Express server for our customized data, uses Cypress testing to make sure it all works and has error handling to guide the user through our application incase there is an issue!",
     liveLink:"https://radiant-lowlands-33922.herokuapp.com/",
     github:"https://github.com/kavakai/kanye-mindfulness-app",

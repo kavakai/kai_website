@@ -5,6 +5,7 @@ import github from "./Assets/github.png"
 import resume from "./Assets/cv.png"
 import { ProjectContainer } from './Components/ProjectContainer';
 import { projectData } from './ProjectData';
+import "./Reset.css"
 
 function App() {
 
@@ -19,13 +20,13 @@ function App() {
       <h2>Personal Projects {"=>"}</h2>
       <ProjectContainer projects={projectData} />
       <div className="links">
-        <a href="https://docs.google.com/document/d/1MpBVSinj4yx3Xd174NhsHVwYGfySZrqdSeZrrPgVRrI/edit?usp=sharing">
+        <a className="logo-link" href="https://docs.google.com/document/d/1MpBVSinj4yx3Xd174NhsHVwYGfySZrqdSeZrrPgVRrI/edit?usp=sharing">
           <img className="logo" src={resume} />
         </a>
-        <a href="www.linkedin.com/in/kai-kuller">
+        <a className="logo-link" href="www.linkedin.com/in/kai-kuller">
           <img className="logo" src={linkedin}/>
         </a>
-        <a href="https://github.com/kavakai/">
+        <a className="logo-link" href="https://github.com/kavakai/">
           <img className="logo" src={github} />
         </a>
       </div>
