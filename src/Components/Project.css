@@ -4,4 +4,7 @@
   align-items: center;
   width: 90%;
   border: solid 3px;
+  padding: 10px;
+  text-align: justify;
+  font-style: oblique;
 }

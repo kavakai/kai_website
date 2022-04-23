@@ -17,8 +17,10 @@ function App() {
       <ProjectContainer projects={projectData} />
       <div className="links">
         <a href="https://docs.google.com/document/d/1MpBVSinj4yx3Xd174NhsHVwYGfySZrqdSeZrrPgVRrI/edit?usp=sharing">Resume</a>
-        <a href="www.linkedin.com/in/kai-kuller">linkedin</a>
-        <a href="https://github.com/kavakai/">github</a>
+        <a href="www.linkedin.com/in/kai-kuller">
+          <img src="../Assets/linkedin.png"/>
+        </a>
+        <a href="https://github.com/kavakai/">Github</a>
       </div>
     </div>
   );
