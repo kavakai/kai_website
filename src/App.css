@@ -75,6 +75,10 @@
   width: 100%; 
 }
 
+.logo-link {  
+  width: 20%;
+}
+
 .intro-paragraph {
   text-align: justify;
 }

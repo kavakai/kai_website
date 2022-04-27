@@ -8,3 +8,9 @@
   text-align: justify;
   font-style: oblique;
 }
+
+.link-holder {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}

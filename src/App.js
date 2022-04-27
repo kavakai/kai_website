@@ -13,7 +13,7 @@ function App() {
     <div className="App">
         <h1>Hi, I am Kai and these are some of my projects...</h1>
       <header className="header">
-        <h2>About Me {"=>"}</h2>
+        <h2>{"<="} About Me {"=>"}</h2>
         <br/>
         <p className="intro-paragraph">I am a software developer by trade and a father, partner, friend, adventurer, etc. by choice</p>
         <br/>
@@ -21,7 +21,7 @@ function App() {
       </header>
       <img className="scale-in-center" src={image} />
 
-      <h2>Personal Projects {"=>"}</h2>
+      <h2>{"<="} Personal Projects {"=>"}</h2>
       <ProjectContainer projects={projectData} />
       <div className="links">
         <a className="logo-link" href="https://docs.google.com/document/d/1MpBVSinj4yx3Xd174NhsHVwYGfySZrqdSeZrrPgVRrI/edit?usp=sharing">

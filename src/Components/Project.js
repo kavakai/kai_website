@@ -1,4 +1,6 @@
 import React from "react";
+import githubLink from "../Assets/github.png"
+import liveLink from "../Assets/play"
 import "./Project.css"
 
 export const Project = ({ title, info, liveLink, github, image, backend }) => {
@@ -9,10 +11,16 @@ export const Project = ({ title, info, liveLink, github, image, backend }) => {
       <img className="scale-in-center" src={image} />
       <br/>
       <p>{info}</p>
-      <br/>
-      <a href={liveLink} target="_blank">Link to Project</a>
-      <a href={github} target="_blank">Github</a>
-      {backend && <a href={backend}>Server Repo</a>}
+      <br />
+      <div className="link-holder">
+        <a href={liveLink} target="_blank">
+          <img src={liveLink} />
+        </a>
+        <a href={github} target="_blank">
+          <img src={githubLink} />
+        </a>
+        {/* {backend && <a href={backend}>Server Repo</a>} */}
+      </div>
     </article>
   )
 }
