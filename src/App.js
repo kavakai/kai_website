@@ -1,5 +1,5 @@
 import './App.css';
-import image from "./Assets/IMG_2175.JPG"
+import profileImg from "./Assets/IMG_2175.JPG"
 import linkedin from "./Assets/linkedin.png"
 import github from "./Assets/github.png"
 import resume from "./Assets/cv.png"
@@ -19,7 +19,7 @@ function App() {
         <br/>
         <p className="intro-paragraph">I am super excited about taking my experience from my former careers in customer service and massage, and using those talents to further my evolution as a human in the ever changing field of software development. I have a strong passion for connecting with others, an easy-going attitude, and I can adapt to many situations and teams. I believe the skills I have acquired from my former careers make me an ideal member for any team/family in development. I am very eager and excited to join a diverse team looking to help change the future.</p>
       </header>
-      <img className="scale-in-center" src={image} />
+      <img className="scale-in-center" src={profileImg} />
 
       <h2>{"<="} Personal Projects {"=>"}</h2>
       <ProjectContainer projects={projectData} />

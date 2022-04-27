@@ -2,18 +2,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
   width: 90%;
   border: solid 3px;
   padding: 10px;
   text-align: justify;
   font-style: oblique;
 }
-
-/* .link-holder {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-} */
 
 .link-holder {
   display: flex;
