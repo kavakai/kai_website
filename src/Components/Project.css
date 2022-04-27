@@ -9,8 +9,22 @@
   font-style: oblique;
 }
 
-.link-holder {
+/* .link-holder {
   width: 100%;
   display: flex;
   justify-content: space-around;
+} */
+
+.link-holder {
+  display: flex;
+  width: 35%;
+  justify-content: space-around;
+}
+
+.link-img {
+  width: 100%; 
+}
+
+.link {  
+  width: 20%;
 }

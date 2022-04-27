@@ -1,6 +1,6 @@
 import React from "react";
 import githubLink from "../Assets/github.png"
-import liveLink from "../Assets/play"
+import linkImg from "../Assets/play-button.png"
 import "./Project.css"
 
 export const Project = ({ title, info, liveLink, github, image, backend }) => {
@@ -13,11 +13,11 @@ export const Project = ({ title, info, liveLink, github, image, backend }) => {
       <p>{info}</p>
       <br />
       <div className="link-holder">
-        <a href={liveLink} target="_blank">
-          <img src={liveLink} />
+        <a className="link" href={liveLink} target="_blank">
+          <img className="link-img" src={linkImg} />
         </a>
-        <a href={github} target="_blank">
-          <img src={githubLink} />
+        <a className="link" href={github} target="_blank">
+          <img className="link-img" src={githubLink} />
         </a>
         {/* {backend && <a href={backend}>Server Repo</a>} */}
       </div>
