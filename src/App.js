@@ -1,5 +1,5 @@
 import './App.css';
-import profileImg from "./Assets/IMG_2175.JPG"
+import profileImg from "./Assets/profile.JPG"
 import linkedin from "./Assets/linkedin.png"
 import github from "./Assets/github.png"
 import resume from "./Assets/cv.png"
