@@ -27,7 +27,7 @@ function App() {
         <a className="logo-link" href="https://docs.google.com/document/d/1MpBVSinj4yx3Xd174NhsHVwYGfySZrqdSeZrrPgVRrI/edit?usp=sharing">
           <img className="logo" src={resume} />
         </a>
-        <a className="logo-link" href="www.linkedin.com/in/kai-kuller">
+        <a className="logo-link" href="https://www.linkedin.com/in/kai-kuller/">
           <img className="logo" src={linkedin}/>
         </a>
         <a className="logo-link" href="https://github.com/kavakai/">
