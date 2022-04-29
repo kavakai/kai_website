@@ -6,8 +6,14 @@ import resume from "./Assets/cv.png"
 import { ProjectContainer } from './Components/ProjectContainer';
 import { projectData } from './ProjectData';
 import "./Reset.css"
+import { useEffect } from 'react';
+import { wakeApps } from './ApiCalls';
 
 function App() {
+
+  useEffect(() => {
+    wakeApps()
+  }, [])
 
   return (
     <div className="App">
