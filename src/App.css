@@ -1,3 +1,23 @@
+@media screen and (min-width: 70em) {
+  .scale-in-center {
+    width: 33%;
+    border: solid 5px;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+@media screen and (max-width: 70em) {
+  .scale-in-center {
+    width: 50%;
+    border: solid 5px;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+  }
+}
+
 .App {
   text-align: center;
   display: flex;
@@ -14,14 +34,7 @@
   margin: 40px;
 }
 
-.scale-in-center {
-  width: 33%;
-  border: solid 5px;
-  border-radius: 8px;
-  padding: 20px;
-  background-color: rgb(255, 255, 255);
-  /* border-radius: 10px; */
-}
+
 
 .scale-in-center {
 	-webkit-animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;

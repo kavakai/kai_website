@@ -1,13 +1,30 @@
-.proj-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  width: 90%;
-  border: solid 3px;
-  padding: 10px;
-  text-align: justify;
-  font-style: oblique;
+@media screen and (min-width: 70em) {
+  .proj-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    border: solid 3px;
+    padding: 10px;
+    text-align: justify;
+    font-style: oblique;
+  }
+}
+
+@media screen and (max-width: 70em) {
+  .proj-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80vw;
+    border: solid 3px;
+    padding: 15px;
+    text-align: justify;
+    font-style: oblique;
+    margin-bottom: 1em;
+  }
 }
 
 .link-holder {
