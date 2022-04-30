@@ -23,7 +23,7 @@ function App() {
       <header className="header">
         <h2>{"<="} About Me {"=>"}</h2>
         <br/>
-        <p className="intro-paragraph">I am a software developer by trade and a father, partner, friend, adventurer, etc. by choice</p>
+        <p className="intro-paragraph">I am a software developer by trade and a father, partner, friend, adventurer, etc. by choice.</p>
         <br/>
         <p className="intro-paragraph">I am super excited about taking my experience from my former careers in customer service and massage, and using those talents to further my evolution as a human in the ever changing field of software development. I have a strong passion for connecting with others, an easy-going attitude, and I can adapt to many situations and teams. I believe the skills I have acquired from my former careers make me an ideal member for any team/family in development. I am very eager and excited to join a diverse team looking to help change the future.</p>
         <br/>
