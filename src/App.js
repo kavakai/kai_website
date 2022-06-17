@@ -26,6 +26,7 @@ function App() {
         <p className="intro-paragraph">I am a software developer by trade and a father, partner, friend, adventurer, etc. by choice.</p>
         <br/>
         <p className="intro-paragraph">I started my journey in software development in May of 2021 when I helped a friend redesign  and build a website. I was immediately intrigued and decided to pursue my newfound passion for development by entering a 7 month intensive, project-based program. During my time at Turing School of Software and Design I became very proficient in Javascript and React, and solidified my passion for software development.</p>
+        <br/>
         <p className="intro-paragraph">
         As a massage therapist and athlete, I have always been body-centered and movement focused. I have learned how to break down large problems into smaller parts, and see how each part plays into the big picture. I spent many years managing teams in the restaurant industry, and have learned a lot about interpersonal communication and the amazing skill of truly listening. Once I found software development, I was able to merge my outstanding ability to manage and communicate within teams, and my passion for problem solving, code architecture, and solving real-world problems. Given the opportunity, I would love to bring my skillset to your company and help both you and I continue to grow.</p>
         <br/>
