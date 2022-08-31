@@ -1,14 +1,14 @@
 export const kaiData = {
   skills: [
-    "JavaScript",
+    "JavaScript || Typescript", 
     "React.js || Vue.js",
     "Cypress || Mocha || Chai",
     "CircleCI || Github Actions",
     "RESTful/CRUD APIs",
+    "SQL"
   ]
 }
 
 export const learning = [
-  "Typescript",
   "Python"
 ]
