@@ -14,7 +14,7 @@ export const projectData = [
   {
     title: "Worth Wild",
     info: "The goal of this project was to build an application with a team of back-end developers and implement new concepts, patterns, and libraries that have not been explicitly taught while at Turing. The app allows a user to explore and discover animal and plant species that are classified as critically imperiled. If a user chooses to register an account, they will be able to login and favorite the species they find the most interesting in order to keep track of their status. Otherwise, anyone can explore the app by choosing the guest option.",
-    liveLink: "https://worth-wild.herokuapp.com/",
+    liveLink: "https://worth-wild.fly.dev/",
     github: "https://github.com/Worth-Wild/worth_wild_fe",
     image: WorthWild
   },
