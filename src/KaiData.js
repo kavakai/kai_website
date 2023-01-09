@@ -1,6 +1,6 @@
 export const kaiData = {
   skills: [
-    "JavaScript || Typescript", 
+    "JavaScript || Typescript || Node.js", 
     "React.js || Vue.js",
     "Cypress || Mocha || Chai",
     "CircleCI || Github Actions",
