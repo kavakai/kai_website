@@ -6,7 +6,7 @@ export const projectData = [
   {
     title: "Ryan Adams Albums",
     info: "Ryan Adams is a musician and songwriter. This app is an anthology of all his albums, where you can select an album to view more details, add albums to a 'playlist' and hopefully learn a bit more about Ryan as an artist. This application was built using React, React's context api, hooks, PropTypes, and tested with Cypress. Enjoy getting to know Ryan Adams and his music a little bit better.",
-    liveLink: "https://ryan-adams-music.fly.dev/",
+    liveLink: "https://ryan-adams-albums-ibms.vercel.app/",
     github: "https://github.com/kavakai/ryan-adams",
     image: RyanAdams,
     serverRepo: "https://github.com/kavakai/ryan-adams-albums"
