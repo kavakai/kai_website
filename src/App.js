@@ -39,7 +39,7 @@ function App() {
       <h2>{"<="} Personal Projects {"=>"}</h2>
       <ProjectContainer projects={projectData} />
       <div className="links">
-        <a className="logo-link" href="app.rezi.ai/s/lpNnRmndg3ZaRgYQS0wV">
+        <a className="logo-link" href="https://docs.google.com/document/d/1s3Shpq-MaMmYqJjFr17fXm05HFY7lIQS_9-Jv9tFn14/edit?usp=sharing">
           <img className="logo" src={resume} />
         </a>
         <a className="logo-link" href="https://www.linkedin.com/in/kai-kuller/">
