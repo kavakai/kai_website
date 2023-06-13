@@ -13,9 +13,9 @@ export const Project = ({ title, info, liveLink, github, image, backend }) => {
       <p>{info}</p>
       <br />
       <div className="link-holder">
-        <a className="link" href={liveLink} target="_blank">
+        {liveLink.length ? <a className="link" href={liveLink} target="_blank">
           <img className="link-img" src={linkImg} />
-        </a>
+        </a>: <div/>}
         <a className="link" href={github} target="_blank">
           <img className="link-img" src={githubLink} />
         </a>
