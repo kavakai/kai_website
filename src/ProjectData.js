@@ -28,7 +28,7 @@ export const projectData = [
   },
   {
     title:"JRyanStudios",
-    info: "An ecommerce site for stained glass, built leveraging React, Redux, Strapi, Stripe, and Mui.",
+    info: "A fullstack ecommerce site for stained glass built from scratch. This site was built leveraging React, Redux, Strapi, Stripe, and Mui Material as a component library.",
     liveLink:"",
     github:"https://github.com/kavakai/JRyanStudios-",
     image: JRStudios
