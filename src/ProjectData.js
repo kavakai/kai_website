@@ -1,6 +1,7 @@
-import RyanAdams from "./Assets/RyanAdams.png"
-import WorthWild from "./Assets/WorthWild.png"
-import KanyeWest from "./Assets/KanyeWest.png"
+import RyanAdams from "./Assets/RyanAdams.png";
+import WorthWild from "./Assets/WorthWild.png";
+import KanyeWest from "./Assets/KanyeWest.png";
+import JRStudios from "./Assets/JRStudios.png";
 
 export const projectData = [
   {
@@ -24,6 +25,13 @@ export const projectData = [
     liveLink:"https://radiant-lowlands-33922.herokuapp.com/",
     github:"https://github.com/kavakai/kanye-mindfulness-app",
     image: KanyeWest
+  },
+  {
+    title:"JRyanStudios",
+    info: "An ecommerce site for stained glass, built leveraging React, Redux, Strapi, Stripe, and Mui.",
+    liveLink:"",
+    github:"https://github.com/kavakai/JRyanStudios-",
+    image: JRStudios
   }
 ]
   
