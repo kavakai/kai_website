@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-        <h1>Hi, I am Kai and these are some of my projects...</h1>
+        <h1>Hi, I am Kai. I am a Software Developer, and these are some of my projects...</h1>
       <header className="header">
         <h2>{"<="} About Me {"=>"}</h2>
         <br/>
