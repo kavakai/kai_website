@@ -23,12 +23,11 @@ function App() {
       <header className="header">
         <h2>{"<="} About Me {"=>"}</h2>
         <br/>
-        <p className="intro-paragraph">I am a software developer by trade and a father, partner, friend, adventurer, etc. by choice.</p>
+        <p className="intro-paragraph">My journey in software development began in May 2021 when I had the opportunity to assist a friend in redesigning and building a website. This experience immediately captivated my interest, prompting me to delve deeper into the world of development. Determined to pursue my newfound passion, I enrolled in a rigorous, project-based program at Turing School of Software and Design, which spanned seven months. Throughout my time there, I honed my skills in Javascript and React, solidifying my dedication to software development.</p>
         <br/>
-        <p className="intro-paragraph">I started my journey in software development in May of 2021 when I helped a friend redesign  and build a website. I was immediately intrigued and decided to pursue my newfound passion for development by entering a 7 month intensive, project-based program. During my time at Turing School of Software and Design I became very proficient in Javascript and React, and solidified my passion for software development.</p>
+        <p className="intro-paragraph">Drawing from my background as a massage therapist and athlete, I have always embraced a body-centered and movement-focused approach. This mindset has equipped me with the ability to break down complex problems into manageable components, recognizing how each part contributes to the bigger picture. Moreover, my years of managing teams in the restaurant industry have imparted valuable lessons in interpersonal communication and the art of active listening.</p>
         <br/>
-        <p className="intro-paragraph">
-        As a massage therapist and athlete, I have always been body-centered and movement focused. I have learned how to break down large problems into smaller parts, and see how each part plays into the big picture. I spent many years managing teams in the restaurant industry, and have learned a lot about interpersonal communication and the amazing skill of truly listening. Once I found software development, I was able to merge my outstanding ability to manage and communicate within teams, and my passion for problem solving, code architecture, and solving real-world problems. Given the opportunity, I would love to bring my skillset to your company and help both you and I continue to grow.</p>
+        <p className="intro-paragraph">Upon discovering software development, I discovered a remarkable synergy between my exceptional team management and communication skills, and my passion for problem-solving, code architecture, and tackling real-world issues. Please reach out if you would like to collaborate and foster mutual growth and success.</p>
         <br/>
         <h2>{"<="} Core Skills {"=>"}</h2>
         <br/>
