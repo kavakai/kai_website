@@ -19,7 +19,10 @@ function App() {
 
   return (
     <div className="App">
-        <h1>Hi, I am Kai. I am a Software Developer, and these are some of my projects...</h1>
+      <div className="intro-container">
+        <h1>Hi, I am KAI. I am a Software Developer, and these are some of my projects...</h1>
+        <img className="scale-in-center profile-img" src={profileImg} />
+      </div>
       <header className="header">
         <h2>{"<="} About Me {"=>"}</h2>
         <br/>
@@ -33,7 +36,6 @@ function App() {
         <br/>
         <SkillsContainer skills={kaiData.skills} />
       </header>
-      <img className="scale-in-center" src={profileImg} />
       <br/>
       <h2>{"<="} Personal Projects {"=>"}</h2>
       <ProjectContainer projects={projectData} />
