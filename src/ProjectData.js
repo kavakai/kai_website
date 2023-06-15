@@ -5,6 +5,13 @@ import JRStudios from "./Assets/JRStudios.png";
 
 export const projectData = [
   {
+    title:"JRyanStudios",
+    info: "A fullstack ecommerce site for stained glass built from scratch. This site was built leveraging React, Redux, Strapi, Stripe, and Mui Material as a component library.",
+    liveLink:"",
+    github:"https://github.com/kavakai/JRyanStudios-",
+    image: JRStudios
+  },
+  {
     title: "Ryan Adams Albums",
     info: "Ryan Adams is a musician and songwriter. This app is an anthology of all his albums, where you can select an album to view more details, add albums to a 'playlist' and hopefully learn a bit more about Ryan as an artist. This application was built using React, React's context api, hooks, PropTypes, and tested with Cypress. Enjoy getting to know Ryan Adams and his music a little bit better.",
     liveLink: "https://ryan-adams-albums-ibms.vercel.app/",
@@ -26,12 +33,5 @@ export const projectData = [
     github:"https://github.com/kavakai/kanye-mindfulness-app",
     image: KanyeWest
   },
-  {
-    title:"JRyanStudios",
-    info: "A fullstack ecommerce site for stained glass built from scratch. This site was built leveraging React, Redux, Strapi, Stripe, and Mui Material as a component library.",
-    liveLink:"",
-    github:"https://github.com/kavakai/JRyanStudios-",
-    image: JRStudios
-  }
 ]
   
