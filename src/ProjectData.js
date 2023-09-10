@@ -7,7 +7,7 @@ export const projectData = [
   {
     title:"JRyanStudios",
     info: "A fullstack ecommerce site for stained glass built from scratch. This site was built leveraging React, Redux, Strapi, Stripe, and Mui Material as a component library.",
-    liveLink:"",
+    liveLink:"https://www.jryanstudios.com/",
     github:"https://github.com/kavakai/JRyanStudios-",
     image: JRStudios
   },
