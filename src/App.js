@@ -18,6 +18,9 @@ function App() {
   }, [])
 
   return (
+    <div class="background-container">
+      <div class="background-animation">
+ 
     <div className="App">
       <div className="intro-container">
         <h1>Hi, I am KAI. I am a Software Developer, and these are some of my projects...</h1>
@@ -50,6 +53,8 @@ function App() {
           <img className="logo" src={github} />
         </a>
       </div>
+    </div>
+    </div>
     </div>
   );
 }
